@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App By Waleed Khattak</title>
+    <link rel="stylesheet" href="style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@iconify/iconify@3.0.1/dist/iconify.min.css"
+/>
+
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@iconify/iconify@3.0.1/dist/iconify.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <p>Developer: Waleed Khattak</p>
+        <form>
+          <div class="input-group">
+            <input type="text" id="city" placeholder="Enter City" />
+            <button id="search" type="button" onclick="getweather()">
+              Search
+            </button>
+          </div>
+        </form>
+        <div id="result"></div>
+        <div id="weather"></div>
+        <div id="temp"></div>
+        <div id="cond"></div>
+        <div id="huma"></div>
+        <div id="icon"></div>
+      </div>
+
+      <script src="./script.js"></script>
+      
+  </body>
+</html>
